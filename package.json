@@ -1,0 +1,33 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishaljoshy18/battleship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishaljoshy18/battleship/issues"
+  },
+  "homepage": "https://github.com/vishaljoshy18/battleship#readme",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.14.1"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.1"
+  }
+}
