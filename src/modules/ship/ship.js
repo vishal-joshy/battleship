@@ -6,6 +6,9 @@ const Ship = function (length) {
 
 Ship.prototype.addHit = function (hitLocation) {
 	this.hits[hitLocation] = 'hit';
+	if (!this.hits.includes(undefined)) {
+		this.sinkShip();
+	}
 };
 
 Ship.prototype.sinkShip = function () {
